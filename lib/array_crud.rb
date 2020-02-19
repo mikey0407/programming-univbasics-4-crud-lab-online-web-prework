@@ -27,7 +27,7 @@ def remove_element_from_start_of_array(array)
 end
 
 def retrieve_element_from_index(array, index_number)
-  array = [boo, ahh]
+  array = ["ahh", "boo"]
   array[index_number]
 end
 
@@ -40,5 +40,6 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-array[]
+array = ["ahh", "boo"]
+array[1] = 
 end
