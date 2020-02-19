@@ -3,26 +3,26 @@ def create_an_empty_array
 end
 
 def create_an_array
-  new _array = [car,bar, far, rawr]
+  new _array = ["car", "bar", "far", "rawr"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array = [ahh]
+  array = ["ahh"]
   array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-   array = [ahh]
+   array = ["ahh"]
   array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-   array = [ahh, boo]
+   array = ["ahh", "boo"]
   array.pop(boo)
 end
 
 def remove_element_from_start_of_array(array)
-   array = [ahh, boo]
+   array = ["ahh", "boo"]
   array.shift(boo)
 end
 
@@ -41,5 +41,5 @@ end
 
 def update_element_from_index(array, index_number, element)
 array = ["ahh", "boo"]
-array[1] = 
+array[1] = "yay"
 end
