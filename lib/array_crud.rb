@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  
+  new _array = [car,bar, far, rawr]
 end
 
 def add_element_to_end_of_array(array, element)
